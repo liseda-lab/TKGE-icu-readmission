@@ -1,4 +1,4 @@
 # TKGE_for_ICU_Readmission
 Embedding generation and further downstream application to ICU Readmission Prediction
 
-![Method-Diagram](Method-Diagram.png)
+![Method-Diagram](Method-Diagram.png){ width=50% }
