@@ -31,6 +31,8 @@ Run the resources in the following order:
     cd ReadmissionPrediction
 ````  
 
+## Information
+
 🤝 Contributing: 
 Contributions, issues, and feature requests are welcome! Feel free to reach out.
 
