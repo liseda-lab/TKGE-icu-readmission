@@ -29,4 +29,13 @@ Run the resources in the following order:
 3. Readmission Prediction
 ````python
     cd ReadmissionPrediction
-````   
+````  
+
+## **🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to reach out.
+
+## **📜 License
+This project is licensed under the Apache-2.0 License.
+
+## **📧 Contact
+For questions or feedback, please reach out at [rmscarvalho@fc.ul.pt].
