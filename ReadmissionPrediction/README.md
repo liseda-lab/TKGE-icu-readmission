@@ -8,7 +8,7 @@ As per the other septs please make shore you have uv installed and inside the di
     cd ReadmissionPrediction
     uv sync
 ````
-## DATA
+## Data
 Before the the prediction first generate the training data running:
 
 ````python
@@ -17,12 +17,12 @@ Before the the prediction first generate the training data running:
     uv run python data_preparation.py
 ````
 
-## IMPLEMENTATION
+## Implemnetation
 Before runing garantee you embeddings are struturede as embedding_icuNcit_KG_300_embedding.txt.
 
 Overview of the options:
 
-| Column 1 | Column 2 | Column 3 |
+| Embeddings | KG strategy | Model |
 |-----------|-----------|-----------|
 | complEx | simple | LogisticRegression |
 | TcomplEx | semantic | XGBoost |
@@ -34,7 +34,7 @@ Overview of the options:
 | TAdistmult | --| -- |
 
 
-To run the predictions you need to do the following steps for each model/embedding/KG pairing:
+To run the predictions you need to do the following steps for each model/embedding/KG-stratefy pairing:
 
 1. Genrerate the features (Demographics + Embeddings for the folds) :
 ````python
