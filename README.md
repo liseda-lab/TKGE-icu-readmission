@@ -16,7 +16,7 @@ This repository contains the code for data processing, implementation, and analy
 
 ''''python
   #Process the files from MIMIC-III
-  python dataSet_construction.py < path to MIMIC-III folder >
+  python dataSet_construction.py --data <path_to_mimic_folder>
 '''
 
 ````python
