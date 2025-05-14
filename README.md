@@ -33,7 +33,7 @@ Before the the prediction first generate the training data running:
     uv run python data_preparation.py
 ````
 
-To run the predictions you need to follow the following steps for each model/embedding pairing:
+To run the predictions you need to follow the following steps for each model/embedding pairing. If you are running using batch access the deploy folder for the files. Otherwise run as showned bellow. If needed the batch files can provide a reference of the pairings.
 
 1. Genrerate the features (Demographics + Embeddings for the folds) :
 ````python
