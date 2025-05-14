@@ -46,7 +46,20 @@ To run the predictions you need to do the following steps for each model/embeddi
     uv run python ml_prediction.py complEx_semantic XGBoost
     uv run python ml_prediction.py complEx_semantic RandomForest
 ````
-3. Adjust the avg_metrics.script to run for the models you desire and run:
+
+For the basline run:
+1. Genrerate the features:
+````python
+    uv run python baseline_feature_engineering.py
+````
+2. Run the ML models for the  model/embedding pairing:
+````python
+    uv run python ml_prediction.py no_embedding LogisticRegression
+    uv run python ml_prediction.py no_embedding XGBoost
+    uv run python ml_prediction.py no_embedding RandomForest
+````
+
+After runnning the desired strateries you can optionaly do an analysis:
 ````python
     uv run python avg_metrics.py
 ````
