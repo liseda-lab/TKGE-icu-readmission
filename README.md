@@ -31,11 +31,11 @@ Run the resources in the following order:
     cd ReadmissionPrediction
 ````  
 
-## **🤝 Contributing
+🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to reach out.
 
-## **📜 License
+📜 License
 This project is licensed under the Apache-2.0 License.
 
-## **📧 Contact
+📧 Contact
 For questions or feedback, please reach out at [rmscarvalho@fc.ul.pt].
