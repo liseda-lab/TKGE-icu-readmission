@@ -14,6 +14,7 @@ This repository contains the code for data processing, implementation, and analy
 - Comprehensive performance evaluation using accuracy and ROC AUC.
 - Enabling analysis of embedding strategies across semantic and temporal axes.
 
-'''
-  cd do
+'''bash
+  #Process the files from MIMIC-III
+  python dataSet_construction.py < path to MIMIC-III folder >
 '''
