@@ -14,38 +14,19 @@ This repository contains the code for data processing, implementation, and analy
 - Comprehensive performance evaluation using accuracy and ROC AUC.
 - Enabling analysis of embedding strategies across semantic and temporal axes.
 
-## III) Prediction
+## **📊 Usage**
 
-Note: To run this portion of the analysis you need to have the MIMIC-III folder. If you opted to download the raw files to do the TKGs construcction you now need to download the MIMIC-III files. Otherwise proced.
-
-As per the other septs please make shore you have uv installed and inside the directory sync the project
-
+To use/reproduce this study, please consult the README.md files of each particular step. 
+Run the resources in the following order:
+1. TKGs Construction
+````python
+    cd TKG construction
+````   
+2. Embedding Contruction
+````python
+    cd Embedings
+````   
+3. Readmission Prediction
 ````python
     cd ReadmissionPrediction
-    uv sync
-````
-
-Before the the prediction first generate the training data running:
-
-````python
-    #Process the files from MIMIC-III and generate the data folds
-    uv run python dataSet_construction.py  <path_to_mimic_folder>
-    uv run python data_preparation.py
-````
-
-To run the predictions you need to follow the following steps for each model/embedding pairing. If you are running using batch access the deploy folder for the files. Otherwise run as showned bellow. If needed the batch files can provide a reference of the pairings.
-
-1. Genrerate the features (Demographics + Embeddings for the folds) :
-````python
-    uv run python feature_engineering.py complEx_icuNcit_semantic_300_embeddings.txt
-````
-2. Run the ML models for the  model/embedding pairing:
-````python
-    uv run python ml_prediction.py complEx_semantic LogisticRegression
-    uv run python ml_prediction.py complEx_semantic XGBoost
-    uv run python ml_prediction.py complEx_semantic RandomForest
-````
-3. Adjust the avg_metrics.script to run for the models you desire and run:
-````python
-    uv run python avg_metrics.py
-````
+````   
