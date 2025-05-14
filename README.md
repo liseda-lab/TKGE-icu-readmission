@@ -14,8 +14,34 @@ This repository contains the code for data processing, implementation, and analy
 - Comprehensive performance evaluation using accuracy and ROC AUC.
 - Enabling analysis of embedding strategies across semantic and temporal axes.
 
+## ** III) Prediction
+
+Note: To run this portion of the analysis you need to have the MIMIC-III folder. If you opted to download the raw files to do the TKGs construcction you now need to download the MIMIC-III files. Otherwise proced.
+
+As per the other septs please make shore you have uv installed and inside the directory sync the project
+
 ````python
-    #Process the files from MIMIC-III
-    python dataSet_construction.py --data <path_to_mimic_folder>
+    cd ReadmissionPrediction
+    uv sync
 ````
 
+Before the the prediction first generate the training data running:
+
+````python
+    #Process the files from MIMIC-III and generate the data folds
+    uv run python dataSet_construction.py  <path_to_mimic_folder>
+    uv run python data_preparation.py
+````
+
+To run the predictions you need to follow the following steps for each model/embedding pairing:
+
+1. Genrerate the features (Demographics + Embeddings for the folds) :
+````python
+    uv run python feature_engineering.py complEx_icuNcit_semantic_300_embeddings.txt
+````
+2. Run the ML models for the  model/embedding pairing:
+````python
+    uv run python /home/rcarvalho/ReadmissionPrediction/ml_prediction.py complEx_semantic LogisticRegression
+    uv run python /home/rcarvalho/ReadmissionPrediction/ml_prediction.py complEx_semantic XGBoost
+    uv run python /home/rcarvalho/ReadmissionPrediction/ml_prediction.py complEx_semantic RandomForest
+````
