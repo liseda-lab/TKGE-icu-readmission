@@ -8,11 +8,11 @@
 uv venv .venv
 # ================================== SIMPLE ==========================================
 #CREATE THE FILES FOR GENRAL SIMPLE TEMPORAL PROCESS
-uv run python3 /home/rcarvalho/Embeddings/embeddings/emb-TtransE/data_conversion.py \
-        --entity /home/rcarvalho/datasets/ICU/Ncit_simple_time/entity2id.txt \
-        --relation /home/rcarvalho/datasets/ICU/Ncit_simple_time/relation2id.txt \
-        --triples /home/rcarvalho/datasets/ICU/Ncit_simple_time/PREFT.txt \
-        --outdir /home/rcarvalho/Embeddings/embeddings/resources/TA_TransE/data \
+uv run python3 Embeddings/embeddings/emb-TtransE/data_conversion.py \
+        --entity /datasets/ICU/Ncit_simple_time/entity2id.txt \
+        --relation /datasets/ICU/Ncit_simple_time/relation2id.txt \
+        --triples /datasets/ICU/Ncit_simple_time/PREFT.txt \
+        --outdir /Embeddings/embeddings/resources/TA_TransE/data \
         --dataset MIMIC_TTransE
 
 #CREATE THE FILES FOR T_TRANSE - TEMPORAL INDEXING

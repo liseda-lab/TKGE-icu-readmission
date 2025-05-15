@@ -10,7 +10,7 @@ For this work we used several resources from other authors.
 | INK-USC | T-TransE, TA-TransE, TA-distMult | [INK-USC](https://github.com/INK-USC/RE-Net.git) |
 
 
-_For details about the embedding methods please refere to the corresponding papers_
+_For details about the embedding methods please refer to the corresponding papers_
 
 - TransE: [Translating Embeddings for Modeling Multi-relational Data](https://proceedings.neurips.cc/paper/2013/hash/1cecc7a77928ca8133fa24680a88d2f9-Abstract.html).
 - T-TransE: [Deriving Validity Time in Knowledge Graph](https://dl.acm.org/doi/abs/10.1145/3184558.3191639).
@@ -21,7 +21,7 @@ _For details about the embedding methods please refere to the corresponding pape
 
 ## **📊 Usage**
 
-1. Navigate to the resources folder and three repositories needed for the embedding methods.
+1. Navigate to the resources folder and download or clone the three repositories needed for the embedding methods. These must be placed on the resources folder.
 ````python
     cd resources
     git clone https://github.com/facebookresearch/tkbc.git
@@ -39,4 +39,4 @@ _For details about the embedding methods please refere to the corresponding pape
 
 ## **📌 Key Features**
 
-_The embeddings generated will be used on the ML prediction framework. In case you desire just the embedding files, please reach out.
+_The embeddings generated will be used on the ML prediction framework. In case you desire just the embedding files, please reach out._
