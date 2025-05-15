@@ -239,7 +239,7 @@ def main(input_folder, output_folder,admission_file):
     print(table)
 
 if __name__ == "__main__":
-    input_folder = "DataSetConstruction/TemporalFacts/IcuStayFacts"   #Path to folder after construction
+    input_folder = "TemporalFacts/IcuStayFacts"   #Path to folder after construction
     output_folder = "TkgConstructions/ICU-NCIT"
     admission_file = "TkgConstructions/admissionTimes.tsv"  #Path to the admission times file
 
