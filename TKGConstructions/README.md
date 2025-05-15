@@ -49,4 +49,7 @@ URL ISSUES: Please Request the folder via email - Updates Soon
 | MergedRelations.txt | MergedRelations.txt | PR.txt| PR.txt|
 | MergedTrainNoTime.txt| MergedtrainRef.txt | PT.txt| PREFT.txt|
 
-There are the files used to train the embeddings. The file name may need to change based on the embedding specific requirements; node files are entity2id.txt, realtions files are entity2id.txt and train files are train2id.txt.
+## **📌 Key Features**
+There are the files used to train the embeddings. 
+
+The file name may need to change based on the embedding specific requirements; node files are entity2id.txt, realtions files are relation2id.txt and train files are train2id.txt
