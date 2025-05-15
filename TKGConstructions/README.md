@@ -22,7 +22,7 @@ To facilitate reproducibility, this step can be completlly skipped. The followin
 
 1. Usign the [clinical-temporal-kg](https://github.com/liseda-lab/clinical-temporal-kg.git) repo, make the annotation files for ICU containing the patient's facts
 
-2. Make the patient files - Please change the paths inside the python script - The name of the outFiles can also bechanged.
+2. Make the patient files - based on the annotations previously generated -  Please change the paths inside the python script - The name of the outFiles can also bechanged.
 ````python
     python3 makePatientsFiles.py
 ````
