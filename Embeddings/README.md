@@ -21,6 +21,13 @@ _For details about the embedding methods please refer to the corresponding paper
 
 ## **📊 Usage**
 
+Please garantee you have uv installed and inside the directory sync the project
+
+````python
+    cd ReadmissionPrediction
+    uv sync
+````
+
 1. Navigate to the resources folder and download or clone the three repositories needed for the embedding methods. These must be placed on the resources folder.
 ````python
     cd resources
