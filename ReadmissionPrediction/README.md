@@ -11,7 +11,7 @@ Please make garantee you have uv installed and inside the directory sync the pro
     cd ReadmissionPrediction
     uv sync
 ````
-# Data
+### Data
 Generate the training data:
 ````python
     #Process the files from MIMIC-III and generate the data folds
@@ -19,7 +19,7 @@ Generate the training data:
     uv run python data_preparation.py
 ````
 
-# Implemnetation
+### Implemnetation
 Before runing garantee you embeddings are structured as embedding_icuNcit_KG_300_embedding.txt.
 
 Overview of the options:
