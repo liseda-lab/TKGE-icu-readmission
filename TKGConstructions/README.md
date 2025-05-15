@@ -20,7 +20,7 @@ To facilitate reproducibility, this step can be completlly skipped. The followin
 
 ## **📊 Usage**
 
-1. Usign the github X make the annotation files for ICU containing the patient's facts
+1. Usign the [clinical-temporal-kg](https://github.com/liseda-lab/clinical-temporal-kg.git) repo, make the annotation files for ICU containing the patient's facts
 
 2. Make the patient files - Please change the paths inside the python script - The name of the outFiles can also bechanged.
 ````python
