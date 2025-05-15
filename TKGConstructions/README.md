@@ -38,7 +38,7 @@ To facilitate reproducibility, this step can be completlly skipped. The followin
     python3 mergeSummary.py
 ````
 
-5. Create a data folder and place the following files inside individual folders (The file name may need to change based on the embedding specific requirements):
+5. Create a data folder and place the following files inside individual folders:
 
 | semantic_notime | semantic_time | simple_notime | simple_time 
 |-----------|-----------|-----------|-----------|
@@ -47,4 +47,4 @@ To facilitate reproducibility, this step can be completlly skipped. The followin
 | MergedRelations.txt | MergedRelations.txt | PR.txt| PR.txt|
 | MergedTrainNoTime.txt| MergedtrainRef.txt | PT.txt| PREFT.txt|
 
-There are the files used to train the embeddings.
+There are the files used to train the embeddings. The file name may need to change based on the embedding specific requirements; node files are entity2id.txt, realtions files are entity2id.txt and train files are train2id.txt.
