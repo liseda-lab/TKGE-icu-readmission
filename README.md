@@ -20,7 +20,7 @@ To use/reproduce this study, please consult the README.md files of each particul
 Run the resources in the following order:
 1. TKGs Construction
 ````python
-    cd TKG construction
+    cd TKGConstructions
 ````   
 2. Embedding Contruction
 ````python

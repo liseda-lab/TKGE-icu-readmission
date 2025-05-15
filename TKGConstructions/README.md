@@ -1,4 +1,4 @@
-# **🎯Goal **
+## **🎯 Goal **
 _This folder aims to generate the files needed for TKGS. Three types of files are gererated: Patient (P), Ontology (O), Merged. These files will be used to generate the traing set for the different files. Here is a summary of the pairing based on the different KGS._
 
 | TKG Type | Files Requeired 
