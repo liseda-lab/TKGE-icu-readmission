@@ -12,7 +12,7 @@ _These files will that be used to train the different embedding strategies._
 
 ## **❗️❕ Data availability ❗️❕**
 
-To facilitate reproducibility, this step can be completlly skipped. The following download will provide a folder with just the files required for the next steps of our implementation. Please place this folder within the main folder of the project.
+To facilitate reproducibility, the steps on this folder can be completlly skipped. The following download will provide a folder with just the files required for the next steps of our implementation. Please place this folder within the main folder of the project.
 
 URL ISSUES: Please Request the folder via email - Updates Soon
 

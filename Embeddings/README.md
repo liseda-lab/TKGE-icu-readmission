@@ -21,7 +21,7 @@ _For details about the embedding methods please refer to the corresponding paper
 
 ## **📊 Usage**
 
-Please garantee you have uv installed and inside the directory sync the project
+Please garantee you have uv installed and inside the directory - sync the project
 
 ````python
     cd ReadmissionPrediction

@@ -5,7 +5,7 @@ _These models will leverage demographics + embeddings to predict with simple ML 
 Note: _To run this portion of the analysis you need to have a MIMIC-III folder. If you opted to download the raw files to do the TKGs construcction you now need to download the MIMIC-III files. Otherwise proced._
 
 ## **📊 Usage**
-Please garantee you have uv installed and inside the directory sync the project
+Please garantee you have uv installed and inside the directory - sync the project
 
 ````python
     cd ReadmissionPrediction
